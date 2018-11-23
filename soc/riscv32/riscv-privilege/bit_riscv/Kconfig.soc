@@ -1,0 +1,12 @@
+# Kconfig - RISCV32_BIT_RISCV configuration options
+#
+#
+
+choice
+prompt "bit_riscv system implementation"
+depends on SOC_SERIES_RISCV32_BIT_RISCV
+
+config SOC_RISCV32_BIT_RISCV
+	bool "bit_riscv system implementation"
+
+endchoice
