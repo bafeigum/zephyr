@@ -1,0 +1,24 @@
+/*
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+/dts-v1/;
+
+#include <bit_riscv.dtsi>
+
+/ {
+	model = "bit bit_riscv 1";
+	compatible = "bit,bit_riscv";
+	aliases {
+	};
+
+	chosen {
+		zephyr,console = &uart0;
+	};
+};
+
+&uart0 {
+	status = "ok";
+	current-speed = <115200>;
+	clock-frequency = <66000000>;
+};

@@ -1,0 +1,3 @@
+config BOARD_M2GL025_BIT_RISCV
+	bool "Microsemi M2GL025 IGLOO2 dev board with bit_riscv CPU"
+	depends on SOC_RISCV32_BIT_RISCV

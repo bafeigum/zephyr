@@ -1,0 +1,6 @@
+if BOARD_M2GL025_BIT_RISCV
+
+config BOARD
+	default "m2gl025_bit_riscv"
+
+endif

@@ -1,0 +1,11 @@
+identifier: m2gl025_bit_riscv
+name: Microsemi M2GL025 with bit_riscv target
+type: mcu
+arch: riscv32
+toolchain:
+  - zephyr
+ram: 64
+testing:
+  ignore_tags:
+    - net
+    - bluetooth
