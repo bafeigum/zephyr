@@ -1,13 +1,13 @@
-# Kconfig.miv - MSS UART configuration option
+# Kconfig.mss - MSS UART configuration option
 #
 #
 
-menuconfig UART_MIV
-	bool "Mi-V serial driver"
+menuconfig UART_MSS
+	bool "MSS serial driver"
 	depends on SOC_RISCV32_BIT_RISCV
 	select SERIAL_HAS_DRIVER
 	help
-	  This option enables the MSS serial driver.
+	  This option enables the Mi-V serial driver.
 
 menuconfig UART_MSS_PORT_0
 	bool "Enable MSS Port 0"

@@ -1,4 +1,4 @@
-if SOC_SERIES_RISCV32_MIV
+if SOC_SERIES_RISCV32_BIT_RISCV
 
 config SOC_SERIES
 	string
@@ -22,7 +22,7 @@ config RISCV_HAS_PLIC
 
 config NUM_IRQS
 	int
-	default 1
+	default 42
 
 config XIP
 	bool

@@ -15,12 +15,7 @@
 			compatible = "microsemi,bit_riscv", "riscv";
 			device_type = "cpu";
 			reg = <0>;
-			riscv,isa = "rv32imac";
-			hlic: interrupt-controller {
-				#interrupt-cells = <1>;
-				compatible = "riscv,cpu-intc";
-				interrupt-controller;
-			};
+			riscv,isa = "rv32i";
 		};
 	};
 
@@ -31,7 +26,7 @@
 		ranges;
 
 		uart0: uart@70001000 {
-			compatible = "microsemi,coreuart";
+			compatible = "microsemi,mssuart";
 			reg = <0x70001000 0x1000>;
 			label = "uart_0";
 			status = "disabled";

@@ -7,8 +7,8 @@
 #include <bit_riscv.dtsi>
 
 / {
-	model = "bit bit_riscv 1";
-	compatible = "bit,bit_riscv";
+	model = "bit_riscv 1";
+	compatible = "bit_riscv,bit_riscv1";
 	aliases {
 	};
 
