@@ -41,7 +41,7 @@ static const struct uart_driver_api uart_mss_driver_api = {
 
 
 static const struct uart_mss_device_config uart_mss_dev_cfg_0 = {
-        .uart_addr = DT_MSS_UART_0_BASE_ADDR,
+        .uart_addr = DT_MSS_UART_0_BASE_ADDR+1,
 };
 
 DEVICE_AND_API_INIT(uart_mss_0, DT_MSS_UART_0_NAME,

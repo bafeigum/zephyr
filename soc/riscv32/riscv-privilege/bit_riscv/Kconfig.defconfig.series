@@ -34,14 +34,14 @@ config RISCV_ROM_BASE_ADDR
 
 config RISCV_ROM_SIZE
 	hex
-	default 0x40000
+	default 0x05000
 
 config RISCV_RAM_BASE_ADDR
 	hex
-	default	0x20040000
+	default	0x20005000
 
 config RISCV_RAM_SIZE
 	hex
-	default 0x40000
+	default 0x08000
 
 endif # SOC_SERIES_RISCV32_BIT_RISCV
